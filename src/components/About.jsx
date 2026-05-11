@@ -1,15 +1,15 @@
 import { motion } from 'framer-motion'
 import {
-  HiOutlineCode,
-  HiOutlineLightningBolt,
-  HiOutlineShieldCheck,
+  HiOutlineTemplate,
   HiOutlineUsers,
+  HiOutlineTrendingUp,
+  HiOutlineShieldCheck,
 } from 'react-icons/hi'
 
 const stats = [
-  { icon: HiOutlineCode, value: '50+', label: 'Project Selesai', color: 'text-blue-400' },
-  { icon: HiOutlineUsers, value: '30+', label: 'Client Puas', color: 'text-violet-400' },
-  { icon: HiOutlineLightningBolt, value: '8', label: 'Developer Expert', color: 'text-indigo-400' },
+  { icon: HiOutlineTemplate, value: '100+', label: 'Landing Page Dibuat', color: 'text-blue-400' },
+  { icon: HiOutlineUsers, value: '80+', label: 'Klien UMKM Puas', color: 'text-violet-400' },
+  { icon: HiOutlineTrendingUp, value: '5x', label: 'Rata-rata Peningkatan Konversi', color: 'text-indigo-400' },
   { icon: HiOutlineShieldCheck, value: '24/7', label: 'Support Aktif', color: 'text-purple-400' },
 ]
 
@@ -42,19 +42,19 @@ export default function About() {
               Tentang Kami
             </span>
             <h2 className="text-3xl sm:text-4xl font-extrabold mb-6 leading-tight">
-              Inovasi Teknologi untuk{' '}
-              <span className="gradient-text">Bisnis yang Lebih Cerdas</span>
+              Spesialis Landing Page untuk{' '}
+              <span className="gradient-text">UMKM Indonesia</span>
             </h2>
             <p className="text-gray-400 leading-relaxed mb-4">
-              PT Nayfos IT Solution adalah perusahaan teknologi yang berfokus pada
-              pengembangan solusi digital berkualitas tinggi. Kami hadir untuk membantu
-              bisnis Anda bertransformasi secara digital melalui sistem yang inovatif,
-              efisien, dan handal.
+              PT Nayfos IT Solution hadir khusus untuk membantu UMKM & bisnis
+              lokal Indonesia tampil profesional secara online. Kami fokus pada
+              satu hal: landing page yang tidak hanya cantik, tapi benar-benar
+              menghasilkan konversi nyata bagi bisnis Anda.
             </p>
             <p className="text-gray-400 leading-relaxed">
-              Dengan tim developer berpengalaman dan pendekatan yang berfokus pada
-              kebutuhan klien, kami memastikan setiap solusi yang kami bangun memberikan
-              nilai nyata dan hasil terukur bagi pertumbuhan bisnis Anda.
+              Dengan tim desainer dan copywriter berpengalaman, kami memastikan
+              setiap landing page yang kami buat mewakili bisnis Anda secara
+              tepat dan mendorong calon pelanggan untuk segera bertindak.
             </p>
           </motion.div>
 
