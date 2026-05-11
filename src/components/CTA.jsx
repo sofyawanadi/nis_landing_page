@@ -49,7 +49,7 @@ export default function CTA() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://wa.me/6281234567890"
+                href="https://wa.me/6285870089917"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-green-500 hover:bg-green-600 text-white font-semibold transition-colors duration-200 shadow-lg shadow-green-900/30"
@@ -58,7 +58,7 @@ export default function CTA() {
                 Chat via WhatsApp
               </a>
               <a
-                href="mailto:hello@nayfos.id"
+                href="mailto:sofyanwanadi6@gmail.com"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full glass border border-white/20 text-white font-semibold hover:border-blue-400/40 hover:bg-blue-500/10 transition-all duration-200"
               >
                 <FiMail className="w-5 h-5" />
