@@ -34,7 +34,7 @@ export default function Navbar() {
         <a href="#hero" className="flex items-center gap-3">
           <img src="/logo.png" alt="Nayfos" className="h-9 w-auto" />
           <span className="font-bold text-lg hidden sm:block">
-            <span className="gradient-text">Nayfos</span>
+            <span className="gradient-text">NIS</span>
           </span>
         </a>
 
