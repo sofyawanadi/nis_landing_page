@@ -2,9 +2,9 @@ import { motion } from 'framer-motion'
 import { HiArrowRight, HiPlay } from 'react-icons/hi'
 
 const floatingCards = [
-  { label: '50+ Projects', icon: '🚀', delay: 0 },
-  { label: '99% Uptime', icon: '⚡', delay: 0.5 },
-  { label: '30+ Clients', icon: '🤝', delay: 1 },
+  { label: '100+ Landing Page', icon: '🚀', delay: 0 },
+  { label: 'UMKM Puas', icon: '🤝', delay: 0.5 },
+  { label: 'Selesai 7 Hari', icon: '⚡', delay: 1 },
 ]
 
 export default function Hero() {
@@ -49,9 +49,9 @@ export default function Hero() {
               transition={{ duration: 0.7, delay: 0.1 }}
               className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight mb-6"
             >
-              Solusi Teknologi{' '}
-              <span className="gradient-text">Modern</span> untuk
-              Transformasi Digital Bisnis Anda
+              Landing Page yang{' '}
+              <span className="gradient-text">Mengkonversi</span>{' '}
+              Pengunjung Jadi Pelanggan
             </motion.h1>
 
             <motion.p
@@ -60,9 +60,9 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-gray-400 text-lg leading-relaxed mb-8 max-w-lg"
             >
-              Kami mengembangkan sistem digital berkualitas tinggi — dari
-              konsultasi IT, web development, hingga backend yang scalable —
-              untuk mendorong pertumbuhan bisnis Anda.
+              Nayfos membuat landing page profesional untuk UMKM & bisnis
+              lokal Indonesia — lengkap dengan desain, copywriting, dan
+              optimasi agar bisnis Anda segera mendapat pelanggan online.
             </motion.p>
 
             <motion.div
@@ -75,15 +75,15 @@ export default function Hero() {
                 href="#cta"
                 className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-full bg-gradient-to-r from-blue-600 to-violet-600 text-white font-semibold text-sm hover:opacity-90 transition-all duration-200 shadow-xl shadow-blue-900/40 glow-blue"
               >
-                Konsultasi Sekarang
+                Buat Landing Page Saya
                 <HiArrowRight className="w-4 h-4" />
               </a>
               <a
-                href="#services"
+                href="#portfolio"
                 className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-full glass border border-white/10 text-white font-semibold text-sm hover:border-blue-500/40 hover:bg-blue-500/10 transition-all duration-200"
               >
                 <HiPlay className="w-4 h-4 text-blue-400" />
-                Lihat Layanan
+                Lihat Contoh
               </a>
             </motion.div>
           </div>
@@ -104,7 +104,7 @@ export default function Hero() {
                     <div className="w-3 h-3 rounded-full bg-yellow-500/70" />
                     <div className="w-3 h-3 rounded-full bg-green-500/70" />
                   </div>
-                  <span className="text-gray-400 text-xs font-mono">nayfos-dashboard.app</span>
+                  <span className="text-gray-400 text-xs font-mono">nayfos.id/landing-page</span>
                 </div>
                 {/* Mock chart bars */}
                 <div className="flex items-end gap-2 h-32 mb-4">
@@ -130,16 +130,16 @@ export default function Hero() {
                 </div>
                 <div className="mt-4 pt-4 border-t border-white/10 flex justify-between">
                   <div>
-                    <p className="text-xs text-gray-500">Total Project</p>
-                    <p className="text-xl font-bold gradient-text">50+</p>
+                    <p className="text-xs text-gray-500">Landing Page</p>
+                    <p className="text-xl font-bold gradient-text">100+</p>
                   </div>
                   <div>
-                    <p className="text-xs text-gray-500">Client Aktif</p>
-                    <p className="text-xl font-bold gradient-text">30+</p>
+                    <p className="text-xs text-gray-500">UMKM Puas</p>
+                    <p className="text-xl font-bold gradient-text">80+</p>
                   </div>
                   <div>
-                    <p className="text-xs text-gray-500">Uptime</p>
-                    <p className="text-xl font-bold text-green-400">99.9%</p>
+                    <p className="text-xs text-gray-500">Selesai</p>
+                    <p className="text-xl font-bold text-green-400">3-7 Hari</p>
                   </div>
                 </div>
               </div>
