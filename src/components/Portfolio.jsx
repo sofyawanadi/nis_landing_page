@@ -16,12 +16,12 @@ export default function Portfolio() {
             Portfolio
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold mb-4">
-            Project yang{' '}
-            <span className="gradient-text">Telah Kami Kerjakan</span>
+            Landing Page untuk{' '}
+            <span className="gradient-text">Berbagai Industri</span>
           </h2>
           <p className="text-gray-400 max-w-xl mx-auto">
-            Berikut beberapa project unggulan yang menunjukkan kemampuan dan
-            kualitas pengerjaan tim kami.
+            Kami telah membantu berbagai jenis bisnis lokal tampil profesional
+            secara online dengan landing page yang mengkonversi.
           </p>
         </motion.div>
 
@@ -35,9 +35,9 @@ export default function Portfolio() {
               transition={{ delay: i * 0.1, duration: 0.6 }}
               className="glass rounded-2xl overflow-hidden border border-white/10 card-hover group"
             >
-              {/* Mockup header with gradient background */}
+              {/* Niche card header */}
               <div
-                className={`bg-gradient-to-br ${project.color} p-8 flex items-center justify-center relative overflow-hidden`}
+                className={`bg-gradient-to-br ${project.color} p-8 flex items-center justify-between relative overflow-hidden`}
               >
                 <div
                   className="absolute inset-0 opacity-20"
@@ -50,12 +50,9 @@ export default function Portfolio() {
                 <span className="text-5xl relative z-10 drop-shadow-lg select-none">
                   {project.icon}
                 </span>
-                {/* Browser chrome dots */}
-                <div className="absolute top-3 left-4 flex gap-1.5">
-                  <div className="w-2.5 h-2.5 rounded-full bg-white/30" />
-                  <div className="w-2.5 h-2.5 rounded-full bg-white/30" />
-                  <div className="w-2.5 h-2.5 rounded-full bg-white/30" />
-                </div>
+                <span className="relative z-10 px-3 py-1 rounded-full bg-white/20 text-white text-xs font-semibold backdrop-blur-sm border border-white/30">
+                  {project.niche}
+                </span>
               </div>
 
               {/* Content */}
