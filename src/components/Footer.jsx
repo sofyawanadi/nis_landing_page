@@ -39,7 +39,7 @@ export default function Footer() {
           {/* Col 1 — Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
-              <img src="/logo.png" alt="Nayfos" className="h-9 w-auto" />
+              <img src="/logo.webp" alt="Nayfos" className="h-9 w-auto" />
               <span className="font-bold text-lg gradient-text">Nayfos</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
