@@ -18,11 +18,10 @@ const navLinks = [
 ]
 
 const servicesList = [
-  'IT Consultation',
-  'Web Development',
-  'Backend Development',
-  'UI/UX Design',
-  'System Integration',
+  'Desain & Development',
+  'Copywriting Profesional',
+  'SEO & Optimasi',
+  'Konsultasi Gratis',
 ]
 
 const socials = [
@@ -44,8 +43,8 @@ export default function Footer() {
               <span className="font-bold text-lg gradient-text">Nayfos</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
-              Solusi teknologi modern untuk transformasi digital bisnis Anda.
-              Kami hadir untuk mewujudkan visi digital Anda.
+              Spesialis pembuatan landing page untuk UMKM & bisnis lokal Indonesia.
+              Desain profesional, copywriting, dan optimasi dalam satu paket.
             </p>
             <div className="flex gap-3">
               {socials.map(({ icon: Icon, href, label }) => (
