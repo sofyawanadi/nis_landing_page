@@ -39,13 +39,13 @@ export default function CTA() {
               Mulai Sekarang
             </span>
             <h2 className="text-3xl sm:text-4xl font-extrabold mb-4">
-              Siap Memulai{' '}
-              <span className="gradient-text">Proyek Digital</span> Anda?
+              Siap Punya{' '}
+              <span className="gradient-text">Landing Page yang Menghasilkan?</span>
             </h2>
             <p className="text-gray-300 leading-relaxed mb-8">
-              Hubungi kami sekarang dan dapatkan konsultasi gratis bersama tim
-              expert kami. Kami siap membantu mewujudkan visi teknologi bisnis
-              Anda.
+              Konsultasikan kebutuhan bisnis Anda sekarang — gratis, tanpa komitmen.
+              Kami bantu UMKM & bisnis lokal Anda tampil profesional dan mulai
+              mendapat pelanggan dari online.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -124,7 +124,7 @@ export default function CTA() {
                     onChange={handleChange}
                     required
                     rows={4}
-                    placeholder="Ceritakan kebutuhan proyek Anda..."
+                    placeholder="Ceritakan bisnis Anda dan apa yang ingin dicapai dari landing page..."
                     className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-gray-500 focus:outline-none focus:border-blue-500/50 focus:bg-blue-500/5 transition-all duration-200 text-sm resize-none"
                   />
                 </div>
