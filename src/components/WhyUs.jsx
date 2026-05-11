@@ -1,53 +1,53 @@
 import { motion } from 'framer-motion'
 import {
-  HiOutlineUserGroup,
-  HiOutlineTemplate,
-  HiOutlineShieldCheck,
+  HiOutlineRefresh,
+  HiOutlineDeviceMobile,
   HiOutlineLightningBolt,
-  HiOutlineScale,
+  HiOutlinePencilAlt,
+  HiOutlineTrendingUp,
   HiOutlineSupport,
 } from 'react-icons/hi'
 
 const advantages = [
   {
-    icon: HiOutlineUserGroup,
-    title: 'Professional Team',
-    desc: 'Tim developer bersertifikat dengan pengalaman multi-industri.',
+    icon: HiOutlineRefresh,
+    title: 'Revisi Fleksibel',
+    desc: 'Tidak puas dengan hasilnya? Kami revisi sampai sesuai visi Anda — tanpa biaya tambahan.',
     color: 'text-blue-400',
     bg: 'bg-blue-500/10',
   },
   {
-    icon: HiOutlineTemplate,
-    title: 'Clean Architecture',
-    desc: 'Kode bersih, terstruktur, dan mudah di-maintain jangka panjang.',
+    icon: HiOutlineDeviceMobile,
+    title: 'Mobile-First Design',
+    desc: '80% trafik UMKM berasal dari HP. Setiap pixel kami optimalkan untuk tampilan layar mobile.',
     color: 'text-indigo-400',
     bg: 'bg-indigo-500/10',
   },
   {
-    icon: HiOutlineShieldCheck,
-    title: 'Secure System',
-    desc: 'Keamanan data menjadi prioritas utama di setiap sistem yang kami bangun.',
+    icon: HiOutlineLightningBolt,
+    title: 'Selesai 3–7 Hari',
+    desc: 'Proses pengerjaan efisien dari konsultasi hingga launch, tanpa mengorbankan kualitas.',
     color: 'text-violet-400',
     bg: 'bg-violet-500/10',
   },
   {
-    icon: HiOutlineLightningBolt,
-    title: 'Fast Development',
-    desc: 'Metodologi agile memastikan pengembangan cepat tanpa mengorbankan kualitas.',
+    icon: HiOutlinePencilAlt,
+    title: 'Copywriting Termasuk',
+    desc: 'Tim penulis iklan kami ada di setiap paket — tidak perlu hire copywriter terpisah.',
     color: 'text-purple-400',
     bg: 'bg-purple-500/10',
   },
   {
-    icon: HiOutlineScale,
-    title: 'Scalable Application',
-    desc: 'Sistem dirancang untuk tumbuh seiring kebutuhan bisnis Anda berkembang.',
+    icon: HiOutlineTrendingUp,
+    title: 'Fokus Konversi',
+    desc: 'Setiap elemen — CTA, warna, layout — dirancang secara strategis untuk mendorong aksi.',
     color: 'text-blue-400',
     bg: 'bg-blue-500/10',
   },
   {
     icon: HiOutlineSupport,
-    title: 'Maintenance & Support',
-    desc: 'Dukungan teknis aktif 24/7 untuk memastikan sistem selalu berjalan optimal.',
+    title: 'Support Pasca-Launch',
+    desc: 'Bantuan teknis tersedia setelah landing page Anda live dan mulai mendapatkan trafik.',
     color: 'text-indigo-400',
     bg: 'bg-indigo-500/10',
   },
@@ -72,8 +72,8 @@ export default function WhyUs() {
             <span className="gradient-text">Nayfos?</span>
           </h2>
           <p className="text-gray-400 max-w-xl mx-auto">
-            Kami tidak hanya membangun software — kami membangun kemitraan jangka
-            panjang yang berfokus pada kesuksesan bisnis Anda.
+            Kami tidak hanya membangun landing page — kami memastikan setiap
+            halaman yang kami buat benar-benar bekerja untuk bisnis Anda.
           </p>
         </motion.div>
 
