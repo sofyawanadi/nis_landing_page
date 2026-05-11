@@ -1,15 +1,15 @@
 import { motion } from 'framer-motion'
 import {
-  HiOutlineLightBulb,
-  HiOutlineCode,
-  HiOutlineServer,
+  HiOutlineTemplate,
+  HiOutlinePencilAlt,
+  HiOutlineSearchCircle,
 } from 'react-icons/hi'
 import { services } from '../data/services'
 
 const iconMap = {
-  HiOutlineLightBulb,
-  HiOutlineCode,
-  HiOutlineServer,
+  HiOutlineTemplate,
+  HiOutlinePencilAlt,
+  HiOutlineSearchCircle,
 }
 
 const fadeUp = {
@@ -36,12 +36,12 @@ export default function Services() {
             Layanan Kami
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold mb-4">
-            Solusi Lengkap untuk{' '}
-            <span className="gradient-text">Kebutuhan Digital</span> Anda
+            Paket Lengkap{' '}
+            <span className="gradient-text">Landing Page Profesional</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Dari konsultasi hingga pengembangan sistem, kami menyediakan layanan
-            teknologi end-to-end yang disesuaikan dengan kebutuhan bisnis Anda.
+            Dari desain hingga copywriting dan optimasi, semua sudah termasuk
+            dalam satu paket — tidak perlu hire vendor berbeda.
           </p>
         </motion.div>
 
