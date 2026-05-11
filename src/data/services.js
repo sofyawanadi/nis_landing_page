@@ -1,26 +1,26 @@
 export const services = [
   {
     id: 1,
-    icon: 'HiOutlineLightBulb',
-    title: 'IT Consultation',
+    icon: 'HiOutlineTemplate',
+    title: 'Desain & Development',
     description:
-      'Memberikan konsultasi teknologi dan solusi sistem yang tepat sesuai kebutuhan dan tujuan bisnis Anda secara strategis dan efisien.',
+      'Landing page custom yang responsif di semua perangkat, dengan desain modern dan kode yang bersih serta cepat dimuat.',
     color: 'from-blue-500 to-indigo-600',
   },
   {
     id: 2,
-    icon: 'HiOutlineCode',
-    title: 'Web Development',
+    icon: 'HiOutlinePencilAlt',
+    title: 'Copywriting Profesional',
     description:
-      'Membangun website modern, responsif, dan skalabel menggunakan teknologi terkini yang disesuaikan dengan kebutuhan perusahaan Anda.',
+      'Teks persuasif yang menonjolkan nilai bisnis Anda dan mendorong pengunjung untuk mengambil tindakan nyata.',
     color: 'from-indigo-500 to-violet-600',
   },
   {
     id: 3,
-    icon: 'HiOutlineServer',
-    title: 'Backend Development',
+    icon: 'HiOutlineSearchCircle',
+    title: 'SEO & Optimasi Kecepatan',
     description:
-      'Membangun sistem backend yang aman, cepat, dan terstruktur menggunakan arsitektur modern untuk mendukung pertumbuhan bisnis.',
+      'Meta tags, struktur URL, dan performa halaman yang dioptimasi agar mudah ditemukan di Google dan loading super cepat.',
     color: 'from-violet-500 to-purple-600',
   },
 ]
