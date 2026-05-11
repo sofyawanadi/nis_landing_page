@@ -48,11 +48,19 @@ export default function Team() {
             >
               {/* Avatar with online indicator */}
               <div className="relative inline-block mb-4">
-                <div
-                  className={`w-20 h-20 rounded-full bg-gradient-to-br ${member.gradient} flex items-center justify-center text-2xl font-bold text-white mx-auto shadow-lg`}
-                >
-                  {member.initials}
-                </div>
+                {member.avatar ? (
+                  <img
+                    src={member.avatar}
+                    alt={member.name}
+                    className="w-20 h-20 rounded-full object-cover mx-auto shadow-lg"
+                  />
+                ) : (
+                  <div
+                    className={`w-20 h-20 rounded-full bg-gradient-to-br ${member.gradient} flex items-center justify-center text-2xl font-bold text-white mx-auto shadow-lg`}
+                  >
+                    {member.initials}
+                  </div>
+                )}
                 <div className="absolute -bottom-1 -right-1 w-5 h-5 bg-green-400 rounded-full border-2 border-navy-900" />
               </div>
 
