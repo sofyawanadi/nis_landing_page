@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nis.web.id/sitemap.xml
